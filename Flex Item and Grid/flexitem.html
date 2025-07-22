@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 500px;
+            width: 70vw;
+            background-color: bisque;
+            border: 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        div{
+            height: 100px;
+            background-color: gold;
+            border: 1px solid;
+           flex-shrink: 1;
+           /* flex-grow: 1; */
+        }
+        /* div:nth-child(2){
+            flex-shrink: 5;
+        } */
+        /* div:nth-child(4){
+            flex-grow: 1;
+        } */
+       div:first-child{
+          /* flex-grow: 1; */
+          flex-basis: 300px;
+          /* flex-grow: 1; */
+          flex-shrink: 0;
+        } 
+        div:nth-child(2){
+          flex: 1 3 400px;
+          background-color: red;
+        }
+    </style>
+</head>
+<body>
+     <section>
+        <div>div-1</div>
+        <div>div-2</div>
+     </section>
+</body>
+</html>
+
+
+https://codeshare.io/64BBMk

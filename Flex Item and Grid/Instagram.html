@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        section{
+            font-family: Arial, sans-serif;
+            background-color: white(35, 22, 22);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin-left: 100px;
+         }
+       
+       .container {
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+            flex-direction: column;
+        }
+        .container h1 {
+            color:black;
+            font-size: 48px;
+            font-style:normal;
+            font-family: 'Arial', sans-serif;
+            margin-bottom: 10px;
+            
+        }
+        .login-box {
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            width: 350px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid #dbdbdb;
+        }
+        .login-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-box button:hover {
+            background: #0077cc;
+        }
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            color: #00376b;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .googleplay-logo{
+              height: 40px;
+              margin-left:0px;
+        }
+        .microsoft-logo{
+                height: 40px;
+                margin-left: 30px;
+        }
+        .inline-play{
+            display: flex;
+            position: relative;
+            align-items: center;
+         }
+         .img-front{
+            height:600px;
+            position:absolute;
+            padding-top: 10px;
+            margin-left: 250px;
+            
+         }
+         .img-mid{
+            height:600px;
+            position:absolute;
+            padding-top: 90px;
+            margin-left: 150px;
+         }
+         .img-last{
+            height:600px;
+            position:absolute;
+            padding-top: 30px;
+            margin-left: 200px;
+         }
+        .sign-up{
+           text-align: justify;
+         }
+    </style>
+</head>
+<body>
+     <img src="./screenshot1.png" class="img-front" alt="">
+     <img src="./screenshot3.png" class="img-mid" alt="">
+     <img src="./screenshot4.png" class="img-last" alt="">
+
+    <section>
+          <div class="container">
+                <h1>Instagram</h1>
+                <p>Log in to see photos and videos from your friends.</p>
+          </div>
+          <div class="login-box">
+               <input type="text" placeholder="Phone number, username, or email">
+               <input type="password" placeholder="Password">
+               <button>Log In</button>
+               <a href="#" class="forgot-password">Forgot password?</a>
+         </div>
+         <div>
+              <p> Don't have an account?  <a href="#" class="sign-up">sign up</a></p>
+         </div>
+           <p>Get the app</p>
+         <div class="inline-play">
+              <img alt="Get it on Google Play" class="googleplay-logo" src="https://static.cdninstagram.com/rsrc.php/v4/yz/r/c5Rp7Ym-Klz.png">
+              <img alt="Get it from Microsoft" class="microsoft-logo" src="https://static.cdninstagram.com/rsrc.php/v4/yu/r/EHY6QnZYdNX.png">
+         </div>
+    </section>
+   
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        section{
+            margin: auto;
+            height: 350px;
+            width: 700px;
+            background-color:blanchedalmond;
+            border-radius: 10px;
+        } 
+        .display{
+            height: 80px;
+            width: 100%;
+            display: grid;
+            border: 1px solid white;
+            background-color: black;
+            grid-template-rows: auto;
+            border-radius: 10px;
+            color: white;
+            align-items: end;
+            justify-content: end;
+        }
+        .button{
+            display: grid;
+            grid-template-rows: repeat(5,46px);
+            grid-template-columns: repeat(7,93px);
+            margin-top: 10px;
+            justify-content: center;
+            align-content: center;
+            row-gap: 5px;
+            column-gap: 3px;
+        }
+        button{
+            border-radius: 40px;
+            background-color:blanchedalmond;
+            border: 1px solid ;
+        }
+        .one1{
+            grid-column: 1/3;
+
+        }
+        .lsnd{
+            background-color: royalblue;
+            color: white;
+            align-items: center;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+      <section>
+        <div class="display">100+20=120</div>
+      <div class="button">
+        <button class="one1"><span>Rad</span>|Deg</button>
+        <button class="one">x!</button>
+        <button class="one">(</button>
+        <button class="one">)</button>
+        <button class="one">%</button>
+        <button class="one">Ac</button>
+        <button class="one">Inv</button>
+        <button class="one">sin</button>
+        <button class="one">in</button>
+        <button class="one">7</button>
+        <button class="one">8</button>
+        <button class="one">9</button>
+        <button class="one">÷</button>
+        <button class="one">π</button>
+        <button class="one">cos</button>
+        <button class="one">log</button>
+        <button class="one">4</button>
+        <button class="one">5</button>
+        <button class="one">6</button>
+        <button class="one">X</button>
+        <button class="one">e</button>
+        <button class="one">tan</button>
+        <button class="one">√ </button>
+        <button class="one">1</button>
+        <button class="one">2</button>
+        <button class="one">3</button>
+        <button class="one">-</button>
+        <button class="one">Ans</button>
+        <button class="one">Exp</button>
+        <button class="one">xy</button>
+        <button class="one">0</button>
+        <button class="one">.</button>
+        <button class="lsnd">=</button>
+        <button class="">+</button>
+      </div>
+      </section>
+
+</body>
+</html>
