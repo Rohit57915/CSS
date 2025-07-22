@@ -1,0 +1,46 @@
+
+  
+
+
+.first {
+    background-color:rgb(188, 225, 213);
+    height: 500px;
+    width: 400px;
+    border:solid ;
+    background-image: url(https://images.unsplash.com/photo-1736580602219-03866c53ec2d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:400px 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-style: italic;
+    
+    
+}
+
+.second {
+    background-color:rgb(166, 221, 203);
+    height: 600px;
+    width: 400px;
+   /* border:solid ;*/
+    background-image: url(https://plus.unsplash.com/premium_vector-1737389054029-ff37f8ec15d3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxpbGx1c3RyYXRpb25zLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-style: italic;
+
+    background-attachment: scroll;
+
+   }
+
+
+.second:nth-of-type()
+{
+ background-image: url(https://media.istockphoto.com/id/1149529035/photo/this-looks-interesting.webp?a=1&b=1&s=612x612&w=0&k=20&c=WBoEsW34ZoDhvrdadrU9jl1b6Gxc2B-tXtUnPT_FVR8=);
+}
+.second:nth-last-of-type()
+{
+background-image: url(https://media.istockphoto.com/id/2148178474/photo/two-hispanic-programmers-collaborating-in-modern-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=_wHVuIZuJv-FoMVws07hopohS8RKVhHA3PTQOjNEd5c=);
+}
+.second:nth-last-of-type
+{
+background-image: url(https://media.istockphoto.com/id/1356364230/photo/young-japanese-man-in-working-on-desktop-computer-diverse-multi-ethnic-team-of-programmers.webp?a=1&b=1&s=612x612&w=0&k=20&c=D3UwNtjL84-LA2QvZ5rwygpkjcFP2WuuBVVHb3lzV30=);
+}
