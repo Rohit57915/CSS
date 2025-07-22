@@ -1,0 +1,32 @@
+/*h1::before{
+    content: "Mr.";
+}
+h1::after{
+    content: "👍👍👍👍👍";
+}
+p::before{
+    content: "😊😊😊😊😊😊";
+}*/
+/*p::selection{
+    background-color: burlywood;
+    color: blueviolet;
+    user-select: none;
+}*/
+/*p::first-line{
+    background-color: blanchedalmond;
+}
+p::first-letter{
+    color: red;
+    font-size: large;
+}*/
+
+/*li::marker{
+    content: "😊";
+}*/
+
+#mr:checked~h2::before{
+    content: "Mr.";
+}
+#emoji:checked~h2::after{
+    content: "😊";
+}

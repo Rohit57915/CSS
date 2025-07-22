@@ -1,0 +1,11 @@
+img{
+    height: 100px;
+    width: 200px;
+
+}
+img[alt="image1"]{
+    height: 200px;
+}
+img[alt="image3"]{
+    height: 300px;
+}

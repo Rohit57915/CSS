@@ -1,0 +1,16 @@
+/*#mydiv{
+    display: none;
+    height: 500px;
+    width: 500px;
+    background-color: gold;
+}
+#check:checked + #mydiv{
+    display: block;
+}
+#para:checked + p {
+    color: blue;
+}
+#para:checked ~ #para1{
+    color:rgb(255, 81, 0)
+}*/
+

@@ -1,0 +1,5 @@
+
+
+#check:checked + section{
+    display: block;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: none;
+        }
+        #on:checked ~ #light{
+            display: block;
+        }
+        #off:checked ~ #notlighting{
+            display: block;
+        }
+
+        input:disabled{
+            background-color: rgb(red, green, blue);
+        }
+    
+    </style>
+</head>
+<body>
+     <!---->
+    ON <input type="radio" name="bulb" id="on">
+    OFF <input type="radio" name="bulb" id="off">
+    <img src="./lightbulb.png" alt="" id="light">
+    <img src="./lightbulb (1).png" alt="" id="notlighting">
+
+
+    Name <input type="text">
+    Email <input type="text">
+    Password <input type="password" value="1234" disabled>
+</body>
+</html>

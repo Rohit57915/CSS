@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>
+    <style>
+        /*div p{
+            background-color: aqua;
+        }*/
+        #one p{
+            background-color: aquamarine;
+        }
+
+        body>ul>li{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Bye</li>
+        <ol>
+            <li>Welcome</li>
+            <li>to</li>
+            <li>jspider</li>
+            <ol>
+                <li>Qspider</li>
+                <li>Pyspider</li>
+            </ol>
+        </ol>
+        <li>Bye</li>
+    </ul>
+
+    <ol type="a">
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Bye</li>
+        <li>Bye</li>
+    </ol>
+
+
+
+
+    <div id="one">
+        I am div 
+        <article>I am artical
+            <p>I am para in artical</p>
+             <h2>I am h2</h2>
+        </article>
+        <section>I am Section 
+            <p>para in section</p>
+            <aside>I am aside 
+                <p>para in aside</p>
+            </aside>
+        </section>
+        <p>I am para</p>
+    </div>
+
+    <section>
+        
+            I am div 
+            <article>I am artical
+                <p>I am para in artical</p>
+                 <h2>I am h2</h2>
+            </article>
+            <section>I am Section 
+                <p>para in section</p>
+                <aside>I am aside 
+                    <p>para in aside</p>
+                </aside>
+            </section>
+            <p>I am para</p>
+        
+    </section>
+</body>
+</html>

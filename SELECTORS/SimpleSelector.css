@@ -1,0 +1,24 @@
+/*div{
+    background-color: aquamarine;
+}
+#second{
+     background-color: aqua;
+}
+#fourth{
+    background-color: red;
+}
+.demo{
+    background-color: blue;
+}*/
+/* Universal selector (*)*/
+/*{
+    font-size: 50px;
+    background-color: aquamarine;
+}*/
+/*grouping selection*/
+/*article,button,section{
+    background-color: aquamarine;
+}*/
+#ar,#btn,#section{
+    background-color: red;
+}

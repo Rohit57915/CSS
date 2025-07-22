@@ -1,0 +1,36 @@
+div{
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: yellow;
+    height: 50px;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+}
+li:first-child{
+    background-color: brown;
+}
+li:last-child{
+    background-color: blue;
+}
+/*li:nth-child(2){
+    background-color: yellow;
+}*/
+/*li:nth-child(even)
+{
+    background-color: blueviolet;
+}*/
+li:nth-child(odd)
+{
+    background-color: blueviolet;
+}
+input:checked{
+    height: 300px;
+    width: 300px;
+}
