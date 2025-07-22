@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navcontainer{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+#sectioncontainer{
+    display: flex;
+}
+#divcontainer{
+    height 200px;
+    width: 300px;
+
+}

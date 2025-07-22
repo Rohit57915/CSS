@@ -1,0 +1,145 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+      font-family: sans-serif;
+}
+
+#mainNavContainer{
+    height: 60px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+#mainNavContainer>section{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.navlinksContainerLeft{
+    gap: 20px;
+}
+.navlinksContainerLeft .navlinksleft , .navLinksRight{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    gap: 10px;
+}
+.navlink{
+    height: 100%;
+    font-size: 16px;
+}
+.navlink>a{
+    text-decoration: none;
+    height: 100%;
+    color: #191919;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    border-bottom: 3px solid transparent;
+}
+.navlink>a:hover{
+    color: #FF6900;
+    border-bottom: 3px solid #FF6900;
+}
+.navlink>a i{
+    font-size: 22px; 
+}
+.navlink .ic:hover{
+    color: #191919;
+    border: none;
+}
+.navigation__logo{
+    height: 32px;
+    width: 32px;
+}
+.logo__home{
+  transform: translate(-100%);
+   transition: 0.2s ease all;
+}
+svg:hover .logo__home{
+    transform: translate(0);
+}
+
+.navlink .allPhones{
+    display: none;
+    height: 389px;
+    width: 100vw;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 0;
+}
+.navlink>a:hover~.allPhones{
+    display: flex;
+}
+.navlink .allPhones:hover{
+    display: flex;
+}
+
+.navlink .allPhones .leftAside{
+    width: 19%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 30px;
+}
+.allPhones .leftAside>a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 30px;
+    color: #191919;
+    transition: 0.4s ease all;
+}
+.allPhones .leftAside>a:hover{
+    color: #FF6900;
+    text-decoration: underline solid #FF6900;
+}
+.allPhones .leftAside>a:first-child{
+    color: #FF6900;
+}
+.navlink .allPhones .rightAside{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(110, 153, 51); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+ .allPhones .rightAside .phoneArticle{
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .allPhones .rightAside .accessoriesArticle{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      gap: 20px;
+ }
+ 
+ .rightAside .phoneArticle .phoneContainer{
+    width:200px;
+    flex-grow: 1;
+    height: 90%;
+    background-color:#E9E9E9;
+    border-radius: 10px;
+ }
+   .rightAside .phoneArticle .phoneContainer .imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    flex-grow: 1;
+
+   }
+  .rightAside .phoneArticle .phoneContainer .imgContainer img{
+    height: 80%;
+  }
