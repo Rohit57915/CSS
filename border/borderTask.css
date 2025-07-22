@@ -1,0 +1,73 @@
+.design{
+   height: 200px;
+   width: 300px;
+   border: solid;
+   border-radius: 0% 100% 0% 100% / 2% 100% 0% 98%  ;
+   border-color: blueviolet;
+   background-color: blueviolet;
+}
+
+.alpha{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-radius:36% 64% 0% 100% / 44% 36% 64% 56%   ;
+    border-color: pink;
+    background-color: pink;
+}
+.demo{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-radius:36% 64% 0% 100% / 44% 72% 28% 56%  ;
+    border-color: rgb(112, 167, 30);
+    background-color: rgb(153, 199, 44);
+}
+
+.beta{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-radius:36% 64% 0% 100% / 44% 72% 28% 56%  ;
+    border-color: rgb(30, 167, 101);
+    background-color: rgb(30, 167, 101);
+}
+.gama{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-radius:47% 53% 0% 100% / 100% 100% 0% 0%  ;
+    border-color: blue;
+    background-color:blue;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-color: brown;
+    border-radius: 260px;
+    /*background-color: aquamarine;*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQzHMc73Mzdw6uktBlSA9jxBYL-TquFmV9MOHEHYkT0NkPKvsfNcqdeThVxFjXOis9tY&usqp=CAU);
+
+}
+div:nth-child(2){
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-color: brown;
+    border-radius: 260px;
+    background-image: url(https://www.shutterstock.com/image-illustration/sweet-adorable-lion-baby-wearing-600nw-2323652003.jpg);
+    background-position: center;
+    
+}
+div:nth-child(3){
+    height: 500px;
+    width: 500px;
+    border: solid;
+    border-color: brown;
+    border-radius: 260px;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/view-wild-tiger-cub_23-2150747980.jpg?t=st=1737737434~exp=1737741034~hmac=38f33fd81544f28cc0cab1facab339563b56cab6661812c71f6a66f90a5f7fef&w=740);
+
+
+}

@@ -1,0 +1,46 @@
+div{
+  /* height: 300px;
+    width: 300px;
+    /*border-width: 20px;
+    border-style: solid;
+    border-style: groove;
+    background-color: aquamarine;
+    border-color: crimson;*/
+
+
+
+/*! SHORTHAND PROPERTIES*/
+   /* border:2px groove red;
+    background-color: aquamarine;*/
+
+   /* border-top: 10px solid red;
+    border-bottom: 10px groove aqua;
+    border-right: 10px dashed darkgoldenrod;
+    border-left: 10px solid darkgreen;
+   
+
+}*/
+/*table,td{
+    height: 100px;
+    width: 100px;
+    border-width: 10px;
+    border: solid;
+    border-top: 3px groove red;
+    border-bottom: 3px groove aqua;
+    border-right: 3px groove darkgoldenrod;
+    border-left: 3px groove darkgreen;
+}
+    
+table{
+    border-collapse: collapse;
+
+}*/
+height: 200px;
+width: 200px;
+border: solid;
+border-color: brown;
+border-radius: 260px;
+background-color: aquamarine;
+
+
+}
