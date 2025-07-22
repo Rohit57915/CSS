@@ -1,0 +1,8 @@
+#freedom{
+    display: none;
+   }
+
+#check:checked + #freedom {
+ display: block;
+}
+
