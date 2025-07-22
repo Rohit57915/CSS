@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    .box {
+      width: 450px;
+      height: 350px;
+      padding: 20px;
+      border: 2px dashed black;
+      margin:2px;
+      box-sizing: border-box;
+      position: relative;
+      background-color:rgb(217, 156, 95); /* Green for padding */
+    }
+
+    .content {
+      width: 90%;
+      height: 80%;
+      padding: 0px;
+      border: 2px solid black;
+      margin: 16px;
+      box-sizing: content-box;
+      background-color: rgb(215, 184, 152); /* Blue for content */
+    }
+    .alpha{
+        width: 77%;
+        height: 70%;
+        margin: 40px;
+        margin-top: 20px;
+        border: 2px dashed black;
+        background-color: rgb(189, 218, 146);
+    }
+    .beta
+    {
+        width: 60%;
+        height: 20%;
+        margin-top:50px;
+        margin-left: 55px;
+        border: 2px dashed black;
+        background-color: rgb(137, 137, 209);
+    }
+  
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f8f9fa; /* Light background */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Margin 
+    <div class="content">Border
+        <div class="alpha">Padding
+            <div class="beta">width and height</div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
