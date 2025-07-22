@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+
+
+
+p{
+    font-size: larger;
+    font-weight: 600;
+    font-family: "Playwrite VN", serif;
+    color: blue;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
