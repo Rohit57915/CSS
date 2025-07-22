@@ -1,0 +1,35 @@
+/*div{
+    height: 300px;
+    width: 300px;
+    border-top: solid yellow;
+    border-bottom: solid green;
+    border-left: solid blue;
+    border-right: solid chartreuse;
+
+    background-image: url(./pngtree-flowering-cherry-tree-isolated-on-transperen_1_-removebg-preview.png);
+    background-position: right center;
+    border-width: 20px;
+    transform: translate(100px,100px) rotateX(180deg) rotateY(180deg) rotateZ(0deg);
+    transform: translate(100px,100px) scale(1.5);
+}*/
+
+section{
+    height: 500px;
+    width: 600px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div{
+    height: 100px;width: 100px;
+    background-color: bisque;
+    display: flex;justify-content: center;
+    align-items: center;
+    transition: 3s ease all;
+}
+
+section:hover div{
+    transform: translateX(496px) rotate(360deg);
+     border-radius: 50%;
+}
