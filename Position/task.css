@@ -1,0 +1,79 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(48, 213, 213);
+    position: relative;
+}
+img{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+}
+input{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 500px;
+    top: 7px;
+    border: 2px solid black;
+}
+#search{
+    position: absolute;
+    margin-left: 1050px;
+    top: 30px;
+}
+#user{
+    position: absolute;
+    margin-left: 1450px;
+    top: 30px;
+}
+section{
+    height: 90vh;
+    width: 100vw;
+    background-color: gold;
+    position: relative;
+}
+aside{
+    width: 50%;
+    height: 80%;
+    margin-left: 50%;
+    background-color: chartreuse;
+    position: absolute;
+}
+footer{
+    width: 100vw;
+    height: 20%;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0%;
+}
+main{
+    width: 50vw;
+    height: 40%;
+    background-color:cadetblue;
+    position: absolute;
+    bottom: 20%;
+}
+#one{
+    width: 25vw;
+    height: 40%;
+    background-color:rgb(223, 13, 220);
+    position: absolute;
+    bottom: 60%;
+}
+#two{
+    width: 25vw;
+    height: 40%;
+    background-color:rgb(223, 62, 9);
+    position: absolute;
+    bottom: 80%;
+    margin-left: 25%;
+    bottom: 60%;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    border: solid;
+}
+section{
+    width: 80%;
+    height: 80%;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    border: solid;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    background-color: red;
+
+}
+div:first-of-type{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+div:nth-of-type(2){
+    background-color: yellow;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+div:nth-of-type(3){
+    background-color: rgb(38, 0, 255);
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+div:nth-of-type(4){
+    background-color: rgb(77, 255, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+}

@@ -1,0 +1,76 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 500px;
+            width: 700px;
+            border: solid;
+            background-color: bisque;
+            margin: auto;
+            margin-top: 50px;
+            position: relative;
+        }
+        img{
+            height: 80%;
+            position: absolute;
+        }
+        img[alt="burger"]{
+            z-index: 2;
+            left: 100px;
+            top: 70px;
+        }
+        img[alt="coke"]{
+            right: 50px;
+            top: 20px;
+        }
+        img[alt="french"]{
+            left: 50px;
+            top: 30px;
+        }
+        #pricetag{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+         
+        }
+        #whiteCircle{
+            margin: auto;
+            margin-top: 10%;
+            height: 80%;
+            width:80%;
+            border-radius: 50%;
+            border: 2px dashed white;
+            text-align: center;
+            padding-top: 20px;
+            font-size:36px;
+            font-weight: 700;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+   <img src="./png-transparent-hamburger-chicken-sandwich-veggie-burger-fast-food-burger-king-food-recipe-fast-food-restaurant-removebg-preview.png" alt="burger">
+   <img src="./pngimg.com - cocacola_PNG24.png" alt="coke">
+   <img src="./png-transparent-french-fries-in-red-sachet-french-fries-hamburger-fast-food-french-cuisine-kebab-hd-fries-food-fries-fried-thumbnail-removebg-preview.png" alt="french">
+   <div id="pricetag">
+    <div id="whiteCircle">
+          $20
+    </div>
+   </div>
+    </section>
+</body>
