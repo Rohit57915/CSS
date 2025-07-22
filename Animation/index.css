@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+div{
+    height: 10vh;
+    width: 20vh;
+    border:solid;
+    background-color: yellow;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    ani
+}
+@keyframes rotation {
+    0%,100%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(80vw);
+    }
+    50%{
+        transform: translate(80vw,90vh);
+    }
+    75%{
+        transform: translate(0,90vh);
+    }
+}

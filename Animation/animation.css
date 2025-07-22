@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loadingContainer{
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    border: 2px solid;
+    overflow: hidden;
+}
+.loading{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(255, 132, 0);
+    animation: loading 6s linear infinite;
+}
+
+
+@keyframes loading {
+    0%{
+        width: 0;
+    }
+    20%{
+      width: 20%;
+      background-color: yellow;
+    }
+    40%{
+      width: 40%;
+      background-color: rgb(255, 196, 0);
+    }
+    60%{
+      width: 60%;
+        background-color: rgb(255, 132, 0);
+    }
+    80%{
+      width: 80%;
+      background-color: rgb(255, 72, 0);
+    }
+    100%{
+      width: 100%;
+      background-color: rgb(255, 0, 0);
+    }
+}

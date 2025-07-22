@@ -1,0 +1,72 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+ }
+ th{
+    height: 60px;
+    width: 60px;
+  
+ }
+ table{
+    border-collapse: collapse;
+ }
+ th:hover{
+     animation:jayaprakash 1s linear infinite ;
+     
+ }
+ .center{
+            margin-left: auto;
+            margin-right: auto;
+    }
+    .y{
+            background-color: rgb(223, 223, 47);
+     }
+        .b{
+            background-color:rgb(113, 113, 219);
+        }
+        .p{
+            background-color: rgb(135, 204, 232);
+        }
+        .R{
+            background-color: rgb(221, 115, 185);
+        }
+        .G{
+            background-color: rgb(152, 187, 99);
+        }
+        .D
+        {
+            background-color: rgb(222, 184, 133);
+        }
+        .O{
+            background-color: rgb(234, 216, 181);
+        }
+        .K{
+            background-color: aquamarine;
+        }
+        .S{
+            background-color: rgb(96, 192, 230);
+        }
+        h1{
+            text-align: center;
+            text-decoration-line: underline;
+            color: rgb(123, 16, 223);
+        }
+
+
+
+        @keyframes jayaprakash{
+            0%{
+                      transform: rotate(0deg);
+            }
+           100%{
+                      transform: rotate(359deg);
+            }
+            25%{
+                transform: rotate(90deg);
+            }
+            50%{
+                 transform: rotate(180deg);
+            }
+            75%{
+                 transform: rotate(270deg);
+            }
+        }
